@@ -1,3 +1,5 @@
 #!/bin/sh
 
-export
+export NOMAD_ADDR=$PLUGIN_NOMAD_ADDRESS
+
+nomad run $PLUGIN_CONFIGURATION
