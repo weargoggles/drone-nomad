@@ -1,0 +1,8 @@
+pipeline:
+  push:
+    image: plugins/docker
+    repo: weargoggles/drone-nomad
+    tags: latest
+    secrets: [ docker_username, docker_password ]
+    when:
+      branch: master
