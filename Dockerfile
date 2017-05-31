@@ -1,6 +1,6 @@
 FROM alpine
-ADD script.bash /bin/
-RUN chmod +x /bin/script.bash
+ADD script.sh /bin/
+RUN chmod +x /bin/script.sh
 
 RUN apk -Uuv add curl ca-certificates && update-ca-certificates
 
