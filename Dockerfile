@@ -6,3 +6,5 @@ RUN curl -o nomad.zip https://releases.hashicorp.com/nomad/0.5.6/nomad_0.5.6_lin
 
 ADD script.sh /bin/
 RUN chmod +x /bin/script.sh
+
+CMD ["/bin/script.sh"]
