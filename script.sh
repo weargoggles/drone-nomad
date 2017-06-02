@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
+
 set -x
 
 export NOMAD_ADDR=${PLUGIN_NOMAD_ADDRESS}
